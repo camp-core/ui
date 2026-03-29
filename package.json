@@ -28,12 +28,19 @@
     "dev": "vp pack --watch",
     "test": "vp test",
     "check": "vp check",
-    "prepublishOnly": "vp run build"
+    "prepublishOnly": "vp run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@storybook/react": "^10.3.3",
+    "@storybook/react-vite": "^10.3.3",
     "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "@typescript/native-preview": "7.0.0-dev.20260328.1",
     "bumpp": "^11.0.1",
+    "storybook": "^10.3.3",
     "typescript": "^6.0.2",
     "vite-plus": "^0.1.14"
   },
@@ -43,5 +50,9 @@
       "vite": "npm:@voidzero-dev/vite-plus-core@latest",
       "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
     }
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
