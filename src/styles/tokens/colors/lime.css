@@ -1,0 +1,27 @@
+:root {
+  --lime-50: #f7fee7;
+  --lime-100: #ecfccb;
+  --lime-200: #d9f99d;
+  --lime-300: #bef264;
+  --lime-400: #a3e635;
+  --lime-500: #84cc16;
+  --lime-600: #65a30d;
+  --lime-700: #4d7c0f;
+  --lime-800: #3f6212;
+  --lime-900: #365314;
+  --lime-950: #1a2e05;
+}
+
+[data-color-mode="dark"] {
+  --lime-50: #1a2e05;
+  --lime-100: #365314;
+  --lime-200: #3f6212;
+  --lime-300: #4d7c0f;
+  --lime-400: #65a30d;
+  --lime-500: #84cc16;
+  --lime-600: #a3e635;
+  --lime-700: #bef264;
+  --lime-800: #d9f99d;
+  --lime-900: #ecfccb;
+  --lime-950: #f7fee7;
+}
