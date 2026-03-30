@@ -15,6 +15,7 @@
 The gray palette is the foundation — semantic tokens for text, surfaces, and borders all reference it.
 
 **Files:**
+
 - Create: `src/styles/tokens/colors/gray.css`
 
 - [ ] **Step 1: Create the gray color palette file**
@@ -65,6 +66,7 @@ git commit -m "feat: add gray color palette tokens"
 Blue is the default primary color for semantic tokens.
 
 **Files:**
+
 - Create: `src/styles/tokens/colors/blue.css`
 
 - [ ] **Step 1: Create the blue color palette file**
@@ -115,6 +117,7 @@ git commit -m "feat: add blue color palette tokens"
 Create the remaining color families. Each follows the identical pattern: 11 shades on `:root`, flipped scale on `[data-color-mode="dark"]`.
 
 **Files:**
+
 - Create: `src/styles/tokens/colors/red.css`
 - Create: `src/styles/tokens/colors/orange.css`
 - Create: `src/styles/tokens/colors/amber.css`
@@ -790,6 +793,7 @@ git commit -m "feat: add all color palette tokens (red through stone)"
 Semantic tokens provide meaningful names that components consume. They reference palette tokens and adapt to dark mode.
 
 **Files:**
+
 - Create: `src/styles/tokens/semantic.css`
 
 - [ ] **Step 1: Create the semantic tokens file**
@@ -858,6 +862,7 @@ git commit -m "feat: add semantic color tokens with dark mode"
 This is the single entry point consumers import. It aggregates all token files.
 
 **Files:**
+
 - Create: `src/styles/global.css`
 
 - [ ] **Step 1: Create the global stylesheet**
@@ -907,6 +912,7 @@ git commit -m "feat: add global stylesheet entry point"
 Move Button into its own directory and replace data-attribute styling with CSS Modules.
 
 **Files:**
+
 - Create: `src/Button/Button.tsx`
 - Create: `src/Button/Button.module.css`
 - Create: `src/Button/Button.stories.tsx`
@@ -924,7 +930,9 @@ Move Button into its own directory and replace data-attribute styling with CSS M
   border: 1px solid var(--color-border);
   border-radius: 0.375rem;
   cursor: pointer;
-  transition: background-color 0.15s, border-color 0.15s;
+  transition:
+    background-color 0.15s,
+    border-color 0.15s;
 
   &:focus-visible {
     outline: 2px solid var(--color-primary);
@@ -1105,6 +1113,7 @@ git commit -m "refactor: move Button to directory structure with CSS Modules"
 TypeScript needs to know how to handle `.module.css` imports.
 
 **Files:**
+
 - Create: `src/css-modules.d.ts`
 
 - [ ] **Step 1: Create the type declaration file**
@@ -1132,6 +1141,7 @@ git commit -m "feat: add CSS Module type declarations"
 Add the `./styles` export so consumers can import the global stylesheet.
 
 **Files:**
+
 - Modify: `package.json`
 
 - [ ] **Step 1: Update the exports field in `package.json`**
@@ -1181,6 +1191,7 @@ git commit -m "feat: add ./styles export for global stylesheet"
 Import the global stylesheet into Storybook and add a toolbar button for switching between light and dark mode.
 
 **Files:**
+
 - Modify: `.storybook/preview.ts`
 
 - [ ] **Step 1: Update `.storybook/preview.ts`**
@@ -1211,10 +1222,7 @@ const preview: Preview = {
   decorators: [
     (Story, context) => {
       const colorMode = context.globals.colorMode;
-      document.documentElement.setAttribute(
-        "data-color-mode",
-        colorMode,
-      );
+      document.documentElement.setAttribute("data-color-mode", colorMode);
       return Story();
     },
   ],
@@ -1236,6 +1244,7 @@ export default preview;
 Run: `vp run storybook`
 
 Expected:
+
 - Storybook loads at `http://localhost:6006`
 - Button stories render with styled buttons (blue primary, bordered secondary)
 - Toolbar shows a sun/moon toggle that switches between light and dark mode

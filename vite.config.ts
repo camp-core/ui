@@ -16,27 +16,12 @@ export default defineConfig({
     rules: {
       // TypeScript
       "typescript/array-type": ["error", { default: "array-simple" }],
-      "typescript/no-confusing-void-expression": [
-        "error",
-        { ignoreArrowShorthand: true },
-      ],
-      "typescript/restrict-template-expressions": [
-        "error",
-        { allowNumber: true },
-      ],
-      "typescript/consistent-type-assertions": [
-        "error",
-        { assertionStyle: "never" },
-      ],
+      "typescript/no-confusing-void-expression": ["error", { ignoreArrowShorthand: true }],
+      "typescript/restrict-template-expressions": ["error", { allowNumber: true }],
+      "typescript/consistent-type-assertions": ["error", { assertionStyle: "never" }],
       "typescript/no-unnecessary-condition": "error",
-      "typescript/no-misused-promises": [
-        "error",
-        { checksVoidReturn: { attributes: false } },
-      ],
-      "typescript/strict-boolean-expressions": [
-        "error",
-        { allowString: false },
-      ],
+      "typescript/no-misused-promises": ["error", { checksVoidReturn: { attributes: false } }],
+      "typescript/strict-boolean-expressions": ["error", { allowString: false }],
 
       // General
       "eslint/no-unused-vars": [

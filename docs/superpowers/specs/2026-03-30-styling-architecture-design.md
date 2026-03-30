@@ -135,23 +135,29 @@ src/
   color: var(--color-text);
 }
 
-.sm { padding: 0.25rem 0.5rem; font-size: 0.875rem; }
-.md { padding: 0.5rem 1rem; font-size: 1rem; }
-.lg { padding: 0.75rem 1.5rem; font-size: 1.125rem; }
+.sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+.md {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.lg {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+}
 ```
 
 **Button.tsx:**
 
 ```tsx
-import styles from './Button.module.css';
+import styles from "./Button.module.css";
 
-export function Button({ variant = 'primary', size = 'md', className, ...props }) {
-  const classes = [
-    styles.button,
-    styles[variant],
-    styles[size],
-    className,
-  ].filter(Boolean).join(' ');
+export function Button({ variant = "primary", size = "md", className, ...props }) {
+  const classes = [styles.button, styles[variant], styles[size], className]
+    .filter(Boolean)
+    .join(" ");
 
   return <button className={classes} {...props} />;
 }
@@ -164,7 +170,7 @@ export function Button({ variant = 'primary', size = 'md', className, ...props }
 Consumers import the global stylesheet once at the app root:
 
 ```tsx
-import '@camp-dev/ui/styles';
+import "@camp-dev/ui/styles";
 ```
 
 This provides all palette tokens, semantic tokens, and base resets.
@@ -172,9 +178,11 @@ This provides all palette tokens, semantic tokens, and base resets.
 ### Using Components
 
 ```tsx
-import { Button } from '@camp-dev/ui';
+import { Button } from "@camp-dev/ui";
 
-<Button variant="secondary" size="lg">Save</Button>
+<Button variant="secondary" size="lg">
+  Save
+</Button>;
 ```
 
 Component CSS Modules are bundled into the JS by Vite's library mode — no separate import needed.
@@ -193,7 +201,7 @@ Consumers can reference palette tokens in their own styles:
 ### Dark Mode
 
 ```html
-<html data-color-mode="dark">
+<html data-color-mode="dark"></html>
 ```
 
 All tokens and components respond automatically.
@@ -234,5 +242,6 @@ dist/
 ### Storybook
 
 A decorator in `.storybook/preview.ts` will:
+
 - Import the global stylesheet
 - Provide a toolbar toggle for light/dark mode
