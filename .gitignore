@@ -4,3 +4,5 @@ dist
 *.local
 *.log
 coverage
+
+docs/superpowers/*
