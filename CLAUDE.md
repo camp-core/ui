@@ -86,3 +86,8 @@ For GitHub Actions, consider using [`voidzero-dev/setup-vp`](https://github.com/
 - [ ] Run `vp install` after pulling remote changes and before getting started.
 - [ ] Run `vp check` and `vp test` to validate changes.
 <!--VITE PLUS END-->
+
+## Design Specs & Plans
+
+- Save design specs to `docs/specs/` (not `docs/superpowers/specs/`)
+- Save implementation plans to `docs/implementation/` (not `docs/superpowers/plans/`)
