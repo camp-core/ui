@@ -1,0 +1,54 @@
+:root {
+  /* Base unit — all sizing tokens derive from this value */
+  --sizing-unit: 0.25rem;
+
+  /* 4px steps (small element dimensions) */
+  --sizing-0: 0rem;
+  --sizing-1: var(--sizing-unit); /* 0.25rem / 4px */
+  --sizing-2: calc(var(--sizing-unit) * 2); /* 0.5rem / 8px */
+  --sizing-3: calc(var(--sizing-unit) * 3); /* 0.75rem / 12px */
+  --sizing-4: calc(var(--sizing-unit) * 4); /* 1rem / 16px */
+
+  /* 8px steps (component-level dimensions) */
+  --sizing-6: calc(var(--sizing-unit) * 6); /* 1.5rem / 24px */
+  --sizing-8: calc(var(--sizing-unit) * 8); /* 2rem / 32px */
+  --sizing-10: calc(var(--sizing-unit) * 10); /* 2.5rem / 40px */
+  --sizing-12: calc(var(--sizing-unit) * 12); /* 3rem / 48px */
+
+  /* 16px steps (section-level dimensions) */
+  --sizing-16: calc(var(--sizing-unit) * 16); /* 4rem / 64px */
+  --sizing-20: calc(var(--sizing-unit) * 20); /* 5rem / 80px */
+  --sizing-24: calc(var(--sizing-unit) * 24); /* 6rem / 96px */
+
+  /* 32px steps (page-level dimensions) */
+  --sizing-32: calc(var(--sizing-unit) * 32); /* 8rem / 128px */
+  --sizing-40: calc(var(--sizing-unit) * 40); /* 10rem / 160px */
+  --sizing-48: calc(var(--sizing-unit) * 48); /* 12rem / 192px */
+
+  /* Component sizes (t-shirt scale) */
+  --size-3xs: var(--sizing-3); /* 0.75rem / 12px — small icons, badges */
+  --size-2xs: var(--sizing-4); /* 1rem / 16px — default icons, indicators */
+  --size-xs: var(--sizing-6); /* 1.5rem / 24px — small buttons, small avatars */
+  --size-sm: var(--sizing-8); /* 2rem / 32px — default inputs, buttons */
+  --size-md: var(--sizing-10); /* 2.5rem / 40px — larger inputs, touch targets */
+  --size-lg: var(--sizing-12); /* 3rem / 48px — large buttons, toolbar height */
+  --size-xl: var(--sizing-16); /* 4rem / 64px — hero elements */
+  --size-2xl: var(--sizing-20); /* 5rem / 80px — large avatars, feature icons */
+  --size-3xl: var(--sizing-24); /* 6rem / 96px — display elements */
+
+  /* Container widths */
+  --width-3xs: 16rem; /* 256px — narrow sidebar */
+  --width-2xs: 20rem; /* 320px — sidebar, small modal */
+  --width-xs: 28rem; /* 448px — small container */
+  --width-sm: 36rem; /* 576px — narrow content */
+  --width-md: 48rem; /* 768px — default content */
+  --width-lg: 64rem; /* 1024px — wide content */
+  --width-xl: 80rem; /* 1280px — full-width content */
+  --width-2xl: 90rem; /* 1440px — max page width */
+  --width-3xl: 100rem; /* 1600px — ultra-wide */
+
+  /* Content widths */
+  --content-width-narrow: 45ch;
+  --content-width-default: 65ch;
+  --content-width-wide: 80ch;
+}
