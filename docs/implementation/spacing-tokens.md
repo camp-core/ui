@@ -13,6 +13,7 @@
 ### Task 1: Implement Spacing Tokens
 
 **Files:**
+
 - Modify: `src/styles/tokens/spacing.css` (currently empty)
 
 - [ ] **Step 1: Write the spacing tokens**

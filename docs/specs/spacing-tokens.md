@@ -20,23 +20,23 @@ All tokens are defined as `calc(var(--spacing-unit) * N)`, so the entire scale a
 
 ### Token Scale
 
-| Token | Multiplier | Value | Step |
-|-------|-----------|-------|------|
-| `--spacing-0` | 0x | 0px | -- |
-| `--spacing-1` | 1x | 4px | +4 |
-| `--spacing-2` | 2x | 8px | +4 |
-| `--spacing-3` | 3x | 12px | +4 |
-| `--spacing-4` | 4x | 16px | +4 |
-| `--spacing-6` | 6x | 24px | +8 |
-| `--spacing-8` | 8x | 32px | +8 |
-| `--spacing-10` | 10x | 40px | +8 |
-| `--spacing-12` | 12x | 48px | +8 |
-| `--spacing-16` | 16x | 64px | +16 |
-| `--spacing-20` | 20x | 80px | +16 |
-| `--spacing-24` | 24x | 96px | +16 |
-| `--spacing-32` | 32x | 128px | +32 |
-| `--spacing-40` | 40x | 160px | +32 |
-| `--spacing-48` | 48x | 192px | +32 |
+| Token          | Multiplier | Value | Step |
+| -------------- | ---------- | ----- | ---- |
+| `--spacing-0`  | 0x         | 0px   | --   |
+| `--spacing-1`  | 1x         | 4px   | +4   |
+| `--spacing-2`  | 2x         | 8px   | +4   |
+| `--spacing-3`  | 3x         | 12px  | +4   |
+| `--spacing-4`  | 4x         | 16px  | +4   |
+| `--spacing-6`  | 6x         | 24px  | +8   |
+| `--spacing-8`  | 8x         | 32px  | +8   |
+| `--spacing-10` | 10x        | 40px  | +8   |
+| `--spacing-12` | 12x        | 48px  | +8   |
+| `--spacing-16` | 16x        | 64px  | +16  |
+| `--spacing-20` | 20x        | 80px  | +16  |
+| `--spacing-24` | 24x        | 96px  | +16  |
+| `--spacing-32` | 32x        | 128px | +32  |
+| `--spacing-40` | 40x        | 160px | +32  |
+| `--spacing-48` | 48x        | 192px | +32  |
 
 ### Step Progression
 
