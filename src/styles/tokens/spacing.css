@@ -1,0 +1,27 @@
+:root {
+  /* Base unit — all spacing tokens derive from this value */
+  --spacing-unit: 4px;
+
+  /* 0–16px: +4px steps (padding, gaps, icon spacing) */
+  --spacing-0: 0px;
+  --spacing-1: var(--spacing-unit);
+  --spacing-2: calc(var(--spacing-unit) * 2);
+  --spacing-3: calc(var(--spacing-unit) * 3);
+  --spacing-4: calc(var(--spacing-unit) * 4);
+
+  /* 16–48px: +8px steps (component-level spacing) */
+  --spacing-6: calc(var(--spacing-unit) * 6);
+  --spacing-8: calc(var(--spacing-unit) * 8);
+  --spacing-10: calc(var(--spacing-unit) * 10);
+  --spacing-12: calc(var(--spacing-unit) * 12);
+
+  /* 48–96px: +16px steps (section-level spacing) */
+  --spacing-16: calc(var(--spacing-unit) * 16);
+  --spacing-20: calc(var(--spacing-unit) * 20);
+  --spacing-24: calc(var(--spacing-unit) * 24);
+
+  /* 96–192px: +32px steps (page-level spacing) */
+  --spacing-32: calc(var(--spacing-unit) * 32);
+  --spacing-40: calc(var(--spacing-unit) * 40);
+  --spacing-48: calc(var(--spacing-unit) * 48);
+}
