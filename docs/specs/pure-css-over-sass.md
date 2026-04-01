@@ -20,12 +20,12 @@ Stay with pure CSS. Do not add Sass as a dependency.
 
 ## Alternatives for Remaining Gaps
 
-| Need | Sass approach | Preferred alternative |
-|---|---|---|
-| File organization | `@use` partials | CSS `@layer` + Vite bundling (already in use) |
-| Breakpoint helpers | `@include` mixins | `@custom-media` via PostCSS, or shared `@media` snippets |
-| Token generation | `@each` loops | Node script to generate `.css` token files |
-| Color manipulation | `darken()` / `lighten()` | Native `color-mix()` |
+| Need               | Sass approach            | Preferred alternative                                    |
+| ------------------ | ------------------------ | -------------------------------------------------------- |
+| File organization  | `@use` partials          | CSS `@layer` + Vite bundling (already in use)            |
+| Breakpoint helpers | `@include` mixins        | `@custom-media` via PostCSS, or shared `@media` snippets |
+| Token generation   | `@each` loops            | Node script to generate `.css` token files               |
+| Color manipulation | `darken()` / `lighten()` | Native `color-mix()`                                     |
 
 ## Consequences
 
