@@ -43,4 +43,7 @@ export default defineConfig({
     },
   },
   fmt: {},
+  staged: {
+    "*.{js,ts,tsx}": "vp check --fix",
+  },
 });
