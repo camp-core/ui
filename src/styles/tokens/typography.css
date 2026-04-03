@@ -2,8 +2,8 @@
   /**
    * @section Font Families
    */
-  --font-sans: 'Aspekta', system-ui, -apple-system, sans-serif;
-  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --font-sans: "Aspekta", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 
   /**
    * @section Font Weights
