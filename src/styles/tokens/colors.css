@@ -1,7 +1,7 @@
 :root {
-  /* ==========================================
-    NEUTRALS
-========================================== */
+  /**
+   * @section Neutrals
+   */
 
   /* Gray — Pure neutral, zero chroma */
   --gray-0: oklch(0.98 0 0);
@@ -138,9 +138,9 @@
   --dusk-950: oklch(0.2 0.006 320);
   --dusk-1000: oklch(0.13 0.005 320);
 
-  /* ==========================================
-    SPECTRUM
-========================================== */
+  /**
+   * @section Spectrum
+   */
 
   /* Ruby — True red */
   --ruby-0: oklch(0.98 0.01 15);
@@ -382,9 +382,9 @@
   --rose-950: oklch(0.2 0.07 354);
   --rose-1000: oklch(0.14 0.04 352);
 
-  /* ==========================================
-    SPECIALTY — Hue-shifting palettes
-========================================== */
+  /**
+   * @section Specialty — Hue-shifting palettes
+   */
 
   /* Sunset — Golden yellow → warm red */
   --sunset-0: oklch(0.98 0.01 63);
