@@ -1,0 +1,131 @@
+:root {
+  /**
+   * @section Font Families
+   */
+  --font-sans: 'Aspekta', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /**
+   * @section Font Weights
+   */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /**
+   * @section Font Sizes
+   */
+
+  /* Display */
+  --font-size-display-xl: 5.5rem; /* 88px */
+  --font-size-display-lg: 4.5rem; /* 72px */
+  --font-size-display-md: 3.75rem; /* 60px */
+  --font-size-display-sm: 3rem; /* 48px */
+  --font-size-display-xs: 2.25rem; /* 36px */
+
+  /* Heading */
+  --font-size-heading-xl: 2rem; /* 32px */
+  --font-size-heading-lg: 1.75rem; /* 28px */
+  --font-size-heading-md: 1.5rem; /* 24px */
+  --font-size-heading-sm: 1.25rem; /* 20px */
+  --font-size-heading-xs: 1.125rem; /* 18px */
+
+  /* Body */
+  --font-size-body-xl: 1.25rem; /* 20px */
+  --font-size-body-lg: 1.125rem; /* 18px */
+  --font-size-body-md: 1rem; /* 16px */
+  --font-size-body-sm: 0.875rem; /* 14px */
+  --font-size-body-xs: 0.75rem; /* 12px */
+
+  /* Label */
+  --font-size-label-xl: 1.125rem; /* 18px */
+  --font-size-label-lg: 1rem; /* 16px */
+  --font-size-label-md: 0.875rem; /* 14px */
+  --font-size-label-sm: 0.75rem; /* 12px */
+  --font-size-label-xs: 0.6875rem; /* 11px */
+
+  /* Code */
+  --font-size-code-xl: 1.125rem; /* 18px */
+  --font-size-code-lg: 1rem; /* 16px */
+  --font-size-code-md: 0.875rem; /* 14px */
+  --font-size-code-sm: 0.8125rem; /* 13px */
+  --font-size-code-xs: 0.75rem; /* 12px */
+
+  /**
+   * @section Line Heights
+   */
+
+  /* Display */
+  --line-height-display-xl: 1.02;
+  --line-height-display-lg: 1.05;
+  --line-height-display-md: 1.08;
+  --line-height-display-sm: 1.1;
+  --line-height-display-xs: 1.15;
+
+  /* Heading */
+  --line-height-heading-xl: 1.2;
+  --line-height-heading-lg: 1.25;
+  --line-height-heading-md: 1.3;
+  --line-height-heading-sm: 1.35;
+  --line-height-heading-xs: 1.4;
+
+  /* Body */
+  --line-height-body-xl: 1.6;
+  --line-height-body-lg: 1.6;
+  --line-height-body-md: 1.6;
+  --line-height-body-sm: 1.55;
+  --line-height-body-xs: 1.5;
+
+  /* Label */
+  --line-height-label-xl: 1.4;
+  --line-height-label-lg: 1.4;
+  --line-height-label-md: 1.4;
+  --line-height-label-sm: 1.35;
+  --line-height-label-xs: 1.35;
+
+  /* Code */
+  --line-height-code-xl: 1.7;
+  --line-height-code-lg: 1.7;
+  --line-height-code-md: 1.7;
+  --line-height-code-sm: 1.65;
+  --line-height-code-xs: 1.6;
+
+  /**
+   * @section Letter Spacing
+   */
+
+  /* Display */
+  --letter-spacing-display-xl: -0.04em;
+  --letter-spacing-display-lg: -0.035em;
+  --letter-spacing-display-md: -0.03em;
+  --letter-spacing-display-sm: -0.025em;
+  --letter-spacing-display-xs: -0.02em;
+
+  /* Heading */
+  --letter-spacing-heading-xl: -0.015em;
+  --letter-spacing-heading-lg: -0.01em;
+  --letter-spacing-heading-md: -0.008em;
+  --letter-spacing-heading-sm: -0.005em;
+  --letter-spacing-heading-xs: 0em;
+
+  /* Body */
+  --letter-spacing-body-xl: 0em;
+  --letter-spacing-body-lg: 0em;
+  --letter-spacing-body-md: 0.005em;
+  --letter-spacing-body-sm: 0.01em;
+  --letter-spacing-body-xs: 0.015em;
+
+  /* Label */
+  --letter-spacing-label-xl: 0.015em;
+  --letter-spacing-label-lg: 0.02em;
+  --letter-spacing-label-md: 0.025em;
+  --letter-spacing-label-sm: 0.03em;
+  --letter-spacing-label-xs: 0.04em;
+
+  /* Code */
+  --letter-spacing-code-xl: 0em;
+  --letter-spacing-code-lg: 0em;
+  --letter-spacing-code-md: 0em;
+  --letter-spacing-code-sm: 0.005em;
+  --letter-spacing-code-xs: 0.005em;
+}
